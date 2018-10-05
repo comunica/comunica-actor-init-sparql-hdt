@@ -101,6 +101,10 @@
     "tslint-eslint-rules": "^5.1.0",
     "typescript": "^2.5.3"
   },
+  "pre-commit": [
+    "build",
+    "lint"
+  ],
   "scripts": {
     "lint": "tslint bin/**/*.ts --exclude '**/*.d.ts'",
     "build": "tsc",
