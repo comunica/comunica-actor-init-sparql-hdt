@@ -9,13 +9,13 @@ This module is part of the [Comunica framework](https://github.com/comunica/comu
 
 ## Install
 
-OSTRICH requires GCC 4.9 or higher to be available so that [HDT](http://www.rdfhdt.org/) can be compiled.
+HDT requires GCC 4.9 or higher to be available.
 
 ```bash
 $ yarn add @comunica/actor-init-sparql-hdt
 ```
 
-## Usage
+## Usage from the command line
 
 Show 100 triples from a HDT file:
 
@@ -28,3 +28,25 @@ Show the help with all options:
 ```bash
 $ comunica-sparql-hdt --help
 ```
+
+Just like [Comunica SPARQL](https://github.com/comunica/comunica/tree/master/packages/actor-init-sparql),
+a [dynamic variant](https://github.com/comunica/comunica/tree/master/packages/actor-init-sparql#usage-from-the-command-line) (`comunica-dynamic-sparql-hdt`) also exists.
+
+### Usage as a SPARQL endpoint
+
+Start a webservice exposing http://fragments.dbpedia.org/2015-10/en via the SPARQL protocol, i.e., a _SPARQL endpoint_.
+
+```bash
+$ comunica-sparql-hdt-http "{ \"sources\": [{ \"type\": \"file\", \"value\" : \"/path/to/my/file.hdt" }]}"
+```
+
+Show the help with all options:
+
+```bash
+$ comunica-sparql-hdt-http --help
+```
+
+The SPARQL endpoint can only be started dynamically.
+An alternative config file can be passed via the `COMUNICA_CONFIG` environment variable.
+
+Use `bin/http.js` when running in the GitHub repo.
