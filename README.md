@@ -32,6 +32,21 @@ $ comunica-sparql-hdt --help
 Just like [Comunica SPARQL](https://github.com/comunica/comunica/tree/master/packages/actor-init-sparql),
 a [dynamic variant](https://github.com/comunica/comunica/tree/master/packages/actor-init-sparql#usage-from-the-command-line) (`comunica-dynamic-sparql-hdt`) also exists.
 
+### Usage within application
+
+This engine can be used in JavaScript/TypeScript applications as follows:
+
+```javascript
+const newEngine = require('@comunica/actor-init-sparql-hdt').newEngine;
+const myEngine = newEngine();
+
+const result = await myEngine.query('SELECT * WHERE { ?s ?p <http://dbpedia.org/resource/Belgium>. ?s ?p ?o } LIMIT 100',
+  { sources: [ { type: 'hdtFile', value: '/path/to/my/file.hdt' } ] })
+result.bindingsStream.on('data', (data) => console.log(data.toObject()));
+```
+
+[More details](https://github.com/comunica/comunica/tree/master/packages/actor-init-sparql#usage-within-application)
+
 ### Usage as a SPARQL endpoint
 
 Start a webservice exposing http://fragments.dbpedia.org/2015-10/en via the SPARQL protocol, i.e., a _SPARQL endpoint_.
