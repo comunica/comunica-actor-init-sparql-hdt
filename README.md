@@ -12,7 +12,13 @@ This module is part of the [Comunica framework](https://github.com/comunica/comu
 HDT requires GCC 4.9 or higher to be available.
 
 ```bash
-$ yarn add @comunica/actor-init-sparql-hdt
+$ yarn add global @comunica/actor-init-sparql-hdt
+```
+
+or
+
+```bash
+$ npm install -g @comunica/actor-init-sparql-hdt
 ```
 
 ## Usage from the command line
