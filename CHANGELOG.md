@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+<a name="v1.5.1"></a>
+## [v1.5.1](https://github.com/comunica/comunica-actor-init-sparql-hdt/tree/master/packages/actor-init-sparql-hdt/compare/v1.5.0...v1.5.1) - 2019-08-21
+
+### Added
+* [Add index file and query(-dynamic) bin files](https://github.com/comunica/comunica-actor-init-sparql-hdt/tree/master/packages/actor-init-sparql-hdt/commit/f15b68ee2ebca5911a0fc9c0562f49b936c8ccbc)
+
 <a name="v1.5.0"></a>
 ## [v1.5.0](https://github.com/comunica/comunica-actor-init-sparql-hdt/tree/master/packages/actor-init-sparql-hdt/compare/v1.4.1...v1.5.0) - 2019-07-30
 
