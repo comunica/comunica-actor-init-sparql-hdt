@@ -47,6 +47,7 @@
     "@types/node": "^12.0.0",
     "manual-git-changelog": "^1.0.0",
     "pre-commit": "^1.2.2",
+    "rdf-test-suite-ldf": "^1.1.0",
     "tslint": "^5.7.0",
     "tslint-eslint-rules": "^5.1.0",
     "typescript": "^3.1.1"
@@ -60,6 +61,7 @@
     "build": "tsc",
     "validate": "npm ls",
     "prepare": "comunica-compile-config config/config-default.json > engine-default.js",
-    "version": "manual-git-changelog onversion"
+    "version": "manual-git-changelog onversion",
+    "integration": "rdf-test-suite-ldf spec/sparql-engine.js https://comunica.github.io/manifest-ldf-tests/sparql-hdt/hdt-manifest.ttl -c .rdf-test-suite-ldf-cache/"
   }
 }

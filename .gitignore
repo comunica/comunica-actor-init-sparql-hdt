@@ -17,3 +17,4 @@ yarn-error.log
 engine-default.js
 coverage
 documentation
+.rdf-test-suite-ldf-cache
