@@ -1,6 +1,6 @@
 {
   "name": "@comunica/actor-init-sparql-hdt",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "A Comunica engine for SPARQL query evaluation over HDT files",
   "lsd:importPaths": {
     "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-init-sparql-hdt/^1.0.0/config/": "config/"
