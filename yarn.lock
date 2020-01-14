@@ -567,15 +567,15 @@
     asynciterator-union "^2.1.1"
     lodash.omit "^4.5.0"
 
-"@comunica/actor-rdf-resolve-quad-pattern-hdt@^1.5.1":
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/@comunica/actor-rdf-resolve-quad-pattern-hdt/-/actor-rdf-resolve-quad-pattern-hdt-1.5.1.tgz#4053019de4282220f1aa59fe993a816562c2e5f0"
-  integrity sha512-Y6vZxCLJSsYHTjsugYRZfxXl2VnAgNk+NePXrmM2g7sbzahtaZeiutgcOig+f3b+bI9aOfEpUKXJ0bsCL3SXCg==
+"@comunica/actor-rdf-resolve-quad-pattern-hdt@^1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@comunica/actor-rdf-resolve-quad-pattern-hdt/-/actor-rdf-resolve-quad-pattern-hdt-1.5.2.tgz#dfad55fc427182f50f801eeb74abf87c28c999a2"
+  integrity sha512-f4aQqLvGsOlLa+tOryhUC2fdJpkvJFUlMPAopGhtKF0gs48Rp02eHsTdKSzpBJbaF9flvzwgzRSAH35PxqP3Pg==
   dependencies:
     "@rdfjs/data-model" "^1.1.1"
     "@types/asynciterator" "^1.1.3"
     "@types/node" "^13.1.6"
-    hdt "^2.1.1"
+    hdt "^2.2.2"
     rdf-string "^1.3.1"
 
 "@comunica/actor-rdf-resolve-quad-pattern-hypermedia@^1.9.0":
@@ -1703,14 +1703,14 @@ hash-base@^3.0.0:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
-hdt@^2.1.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/hdt/-/hdt-2.2.1.tgz#8c12e032d36c072d205155012750374277f1453d"
-  integrity sha512-iZrOA9iMFYwih/4nl9Pq/sJkIIGMvTYjc6rSnI5CTZEcSds5HHw2ZE3ckH4rhwyAa93PMZm+22EsRH+bbmnM8A==
+hdt@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/hdt/-/hdt-2.2.2.tgz#4e570250a42043050a345dc7b84d2838c40fa7ca"
+  integrity sha512-CaGQ6z/ncMgL9BXBAbBcjAxEZhozfQKXFi/1Ov2gz7WwYH3muv1PGsml7r8FdhtErRf45owKkITEfpJ2h8+64w==
   dependencies:
     minimist "^1.1.0"
     n3 "^0.11.2"
-    nan "^2.10.0"
+    nan "^2.14.0"
 
 homedir-polyfill@^1.0.1:
   version "1.0.3"
@@ -2280,7 +2280,7 @@ n3@^1.0.0, n3@^1.1.1:
   resolved "https://registry.yarnpkg.com/n3/-/n3-1.2.0.tgz#4d04e953007438f8e39635e13562dcfa66fb1e9b"
   integrity sha512-3VZD31lRyG2JoAa7imyhAIUZbqaZk4FSsa5QenNjUhNNJKomMLcwuhAOyl+i/suT7UB2H16Ta/7tSUP+Hkq/EQ==
 
-nan@^2.10.0:
+nan@^2.14.0:
   version "2.14.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.0.tgz#7818f722027b2459a86f0295d434d1fc2336c52c"
   integrity sha512-INOFj37C7k3AfaNTtX8RhsTw7qRy7eLET14cROi9+5HAVbbHuIWUHEauBv5qT4Av2tWasiTY1Jw6puUNqRJXQg==
