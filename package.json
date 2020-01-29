@@ -39,7 +39,7 @@
     "@comunica/actor-init-sparql": "^1.9.0",
     "@comunica/actor-rdf-resolve-quad-pattern-hdt": "^1.5.2",
     "@comunica/runner-cli": "^1.9.0",
-    "@types/node": "^13.1.0",
+    "@types/node": "13.5.1",
     "@types/minimist": "^1.2.0"
   },
   "devDependencies": {
