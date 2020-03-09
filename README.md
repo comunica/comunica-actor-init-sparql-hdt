@@ -58,7 +58,7 @@ result.bindingsStream.on('data', (data) => console.log(data.toObject()));
 Start a webservice exposing http://fragments.dbpedia.org/2015-10/en via the SPARQL protocol, i.e., a _SPARQL endpoint_.
 
 ```bash
-$ comunica-sparql-hdt-http "{ \"sources\": [{ \"type\": \"file\", \"value\" : \"/path/to/my/file.hdt" }]}"
+$ comunica-sparql-hdt-http "{ \"sources\": [{ \"type\": \"hdtFile\", \"value\" : \"/path/to/my/file.hdt" }]}"
 ```
 
 Show the help with all options:
