@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+<a name="v1.5.4"></a>
+## [v1.5.4](https://github.com/comunica/comunica-actor-init-sparql-hdt/tree/master/packages/actor-init-sparql-hdt/compare/v1.5.3...v1.5.4) - 2020-03-09
+
+### Fixed
+* [Add missing http binary](https://github.com/comunica/comunica-actor-init-sparql-hdt/tree/master/packages/actor-init-sparql-hdt/commit/27530f709a26406ae709501acfc0bda25ba65779)
+
 <a name="v1.5.3"></a>
 ## [v1.5.3](https://github.com/comunica/comunica-actor-init-sparql-hdt/tree/master/packages/actor-init-sparql-hdt/compare/v1.5.2...v1.5.3) - 2020-01-14
 
