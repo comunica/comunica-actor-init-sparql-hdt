@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+<a name="v1.6.0"></a>
+## [v1.6.0](https://github.com/comunica/comunica-actor-init-sparql-hdt/tree/master/packages/actor-init-sparql-hdt/compare/v1.5.4...v1.6.0) - 2020-08-14
+
+### Changed
+* [Update to Comunica 1.15](https://github.com/comunica/comunica-actor-init-sparql-hdt/tree/master/packages/actor-init-sparql-hdt/commit/94acb6b914129fb2fe1d0617e08a8dd56a10a66f)
+
 <a name="v1.5.4"></a>
 ## [v1.5.4](https://github.com/comunica/comunica-actor-init-sparql-hdt/tree/master/packages/actor-init-sparql-hdt/compare/v1.5.3...v1.5.4) - 2020-03-09
 
