@@ -7,6 +7,8 @@ A comunica SPARQL [HDT](http://www.rdfhdt.org/) Init Actor.
 
 This module is part of the [Comunica framework](https://comunica.dev/).
 
+[Click here to learn more about querying HDT files with Comunica](https://comunica.dev/docs/query/advanced/hdt/).
+
 ## Install
 
 HDT requires GCC 4.9 or higher to be available.
