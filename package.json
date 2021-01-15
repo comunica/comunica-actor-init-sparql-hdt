@@ -1,6 +1,6 @@
 {
   "name": "@comunica/actor-init-sparql-hdt",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "A Comunica engine for SPARQL query evaluation over HDT files",
   "lsd:module": true,
   "main": "index.js",
