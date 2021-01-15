@@ -2,9 +2,7 @@
   "name": "@comunica/actor-init-sparql-hdt",
   "version": "1.7.0",
   "description": "A Comunica engine for SPARQL query evaluation over HDT files",
-  "lsd:importPaths": {
-    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-init-sparql-hdt/^1.0.0/config/": "config/"
-  },
+  "lsd:module": true,
   "main": "index.js",
   "typings": "index",
   "repository": {
@@ -45,20 +43,20 @@
     "engine-default.js"
   ],
   "dependencies": {
-    "@comunica/actor-init-sparql": "^1.17.0",
-    "@comunica/actor-rdf-resolve-quad-pattern-hdt": "^1.7.0",
-    "@comunica/runner-cli": "^1.17.0",
+    "@comunica/actor-init-sparql": "^1.19.0",
+    "@comunica/actor-rdf-resolve-quad-pattern-hdt": "^1.8.0",
+    "@comunica/runner-cli": "^1.19.0",
     "@types/minimist": "^1.2.0",
     "@types/node": "^13.1.0"
   },
   "devDependencies": {
-    "@comunica/runner-cli": "^1.17.0",
+    "@comunica/runner-cli": "^1.19.0",
     "@rubensworks/eslint-config": "^1.0.0",
     "@types/n3": "^1.4.4",
     "@typescript-eslint/eslint-plugin": "^4.4.0",
     "@typescript-eslint/parser": "^4.4.0",
     "eslint": "^7.11.0",
-    "eslint-config-es": "^3.24.3",
+    "eslint-config-es": "3.24.3",
     "eslint-import-resolver-typescript": "^2.3.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^24.1.0",
