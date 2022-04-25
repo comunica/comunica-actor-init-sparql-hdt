@@ -45,12 +45,12 @@
   "dependencies": {
     "@comunica/actor-init-sparql": "^1.19.0",
     "@comunica/actor-rdf-resolve-quad-pattern-hdt": "^1.8.0",
-    "@comunica/runner-cli": "^1.19.0",
+    "@comunica/runner-cli": "^2.0.0",
     "@types/minimist": "^1.2.0",
     "@types/node": "^13.1.0"
   },
   "devDependencies": {
-    "@comunica/runner-cli": "^1.19.0",
+    "@comunica/runner-cli": "^2.0.0",
     "@rubensworks/eslint-config": "^1.0.0",
     "@types/n3": "^1.4.4",
     "@typescript-eslint/eslint-plugin": "^4.4.0",
