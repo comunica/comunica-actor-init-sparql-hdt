@@ -47,7 +47,7 @@
     "@comunica/actor-rdf-resolve-quad-pattern-hdt": "^1.8.0",
     "@comunica/runner-cli": "^1.19.0",
     "@types/minimist": "^1.2.0",
-    "@types/node": "^13.1.0"
+    "@types/node": "^20.0.0"
   },
   "devDependencies": {
     "@comunica/runner-cli": "^1.19.0",
