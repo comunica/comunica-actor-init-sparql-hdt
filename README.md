@@ -1,3 +1,5 @@
+## Deprecated in favor of https://github.com/comunica/comunica-feature-hdt
+
 # Comunica SPARQL HDT Init Actor
 
 [![Build Status](https://travis-ci.org/comunica/comunica-actor-init-sparql-hdt.svg?branch=master)](https://travis-ci.org/comunica/comunica-actor-init-sparql-hdt)
